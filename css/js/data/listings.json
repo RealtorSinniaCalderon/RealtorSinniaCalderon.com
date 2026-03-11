@@ -1,0 +1,18 @@
+Replace the placeholders with real listing data + photo filenames you upload to assets/listings/
+[
+  {
+    "id": "FL-001",
+    "title": "[[ADD_LISTING_TITLE_HERE]]",
+    "address": "[[ADD_LISTING_ADDRESS_HERE]]",
+    "city": "[[ADD_CITY_HERE]]",
+    "price": 725000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2850,
+    "status": "Available",
+    "image": "assets/listings/[[ADD_IMAGE_FILENAME_HERE]]",
+    "description": "[[ADD_LISTING_DESCRIPTION_HERE]]",
+    "features": ["Pool", "Open Concept", "Updated Kitchen", "Gated Community"]
+  }
+]
+
