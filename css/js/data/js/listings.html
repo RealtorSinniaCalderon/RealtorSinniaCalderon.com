@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Listings | [[ADD_BRAND_NAME_HERE]]</title>
+  <meta name="description" content="Browse homes and schedule tours with Realtor® [[ADD_REALTOR_NAME_HERE]]." />
+
+  https://fonts.googleapis.com
+  https://fonts.gstatic.com
+  https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap
+
+  css/styles.css
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    index.html<span class="brandMark" aria-hidden="true"></span><span>[[ADD_BRAND_NAME_HERE]]</span></a>
+
+    <nav aria-label="Primary">
+      <ul>
+        <li>index.htmlHome</a></li>
+        <li>listings.htmlListings</a></li>
+        <li>about.htmlAbout</a></li>
+        <li>areas.htmlAreas</a></li>
+        <li>partners.htmlPartners</a></li>
+        <li>contact.htmlContact</a></li>
+      </ul>
+    </nav>
+
+    <button id="menuBtn" class="menuBtn" aria-expanded="false" aria-controls="mobileNav">Menu</button>
+    appointments.htmlBook</a>
+  </div>
+
+  <div id="mobileNav" class="mobileNav">
+    index.htmlHome</a>
+    listings.htmlListings</a>
+    about.htmlAbout</a>
+    areas.htmlAreas</a>
+    partners.htmlPartners</a>
+    appointments.htmlAppointments</a>
+    contact.htmlContact</a>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <div class="sectionHead">
+      <div>
+        <h2>Homes Available</h2>
+        <p>Search and filter listings. Click a home to view details and schedule a tour.</p>
+      </div>
+    </div>
+
+    <div class="toolbar" role="region" aria-label="Listing filters">
+      <div class="field" style="min-width:220px; flex:1;">
+        <label for="q">Keyword</label>
+        <input id="q" placeholder="Address, keyword, neighborhood..." />
+      </div>
+
+      <div class="field">
+        <label for="city">City</label>
+        <input id="city" placeholder="Clermont, Orlando..." />
+      </div>
+
+      <div class="field">
+        <label for="minPrice">Min</label>
+        <input id="minPrice" type="number" placeholder="0" />
+      </div>
+
+      <div class="field">
+        <label for="maxPrice">Max</label>
+        <input id="maxPrice" type="number" placeholder="Any" />
+      </div>
+
+      <div class="field">
+        <label for="beds">Beds</label>
+        <select id="beds">
+          <option value="">Any</option>
+          <option value="2">2+</option>
+          <option value="3">3+</option>
+          <option value="4">4+</option>
+          <option value="5">5+</option>
+        </select>
+      </div>
+    </div>
+
+    <p id="emptyState" class="notice" style="display:none; margin-top:14px;">
+      No listings match your filters. Update <code>data/listings.json</code>.
+    </p>
+
+    <section id="listingsGrid" class="listingsGrid" aria-label="Listings"></section>
+  </div>
+</main>
+
+<footer>
+  <div class="container footerRow">
+    <div><strong>[[ADD_BRAND_NAME_HERE]]</strong><br/><span class="small">Realtor® [[ADD_REALTOR_NAME_HERE]]</span></div>
+    <div>appointments.htmlAppointments</a> · contact.htmlContact</a></div>
+  </div>
+</footer>
+
+js/main.js</script>
+js/listings.js</script>
+</body>
+</html>
